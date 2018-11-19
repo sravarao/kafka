@@ -191,6 +191,8 @@ class InterBrokerSendThreadTest {
     override def onComplete(response: ClientResponse): Unit = {
       this.executedWithDisconnectedResponse = response.wasDisconnected()
       this.response = response
+      #adding a comment
+      
     }
   }
 
